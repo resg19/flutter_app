@@ -13,5 +13,9 @@ final appRouter = GoRouter(
       path: '/state-provider',
       builder: (context, state) => StateProviderScreen(),
       ),
+      GoRoute(
+      path: '/inicio',
+      builder: (context, state) => StateProviderScreen(),
+      ),
   ]
 );
