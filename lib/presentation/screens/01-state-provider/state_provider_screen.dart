@@ -10,7 +10,7 @@ class StateProviderScreen extends StatelessWidget {
     
     return Scaffold(
       appBar: AppBar(title: Text('State provider', style:estiloG ,),),
-      body:   Center(child: Text('Guillermin reyes', style: estiloM ,),),
+      body:   Center(child: Text('guillermo', style: estiloM ,),),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
         },
